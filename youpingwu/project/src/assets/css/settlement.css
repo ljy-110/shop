@@ -1,0 +1,136 @@
+.text_right{
+    text-align: right;
+}
+.text_left{
+    text-align: left;
+}
+.text_color{
+    color: rgb(255,0,54);
+}
+.f1-p{
+    font-size: 16px;
+}
+.row-reverse{
+    display: flex;
+    flex-direction:row-reverse;
+    width: 100%;
+}
+.buzou{
+    margin: 20px;
+}
+.set-add{
+    margin: 20px 0 20px 0;
+}
+.set-add a{
+    font-size: 14px;
+    color: #ff3300;
+}
+.width52{
+    width: 51%;
+}
+.width12{
+    width: 12%;
+}
+.top-nav{
+    font-size: 14px;
+    text-align: center;
+    border-bottom: 3px solid #66C2FF;
+}
+.set-main-li .main-li-div{
+    background-color: rgb251,252,255();
+}
+.set-now-left{
+    width: 50%;
+    padding: 12px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+}
+.set-now-right{
+    width: 50%;
+    flex-direction:column;
+    display: flex;
+}
+.now-left-aa{
+    width: 20%;
+}
+.now-left-bb{
+    width: 60%;
+}
+
+.set-now,
+.set-mm-oo{
+    background-color: rgb(242,247,255);
+}
+.set-right-shang,.set-right-xia{
+    height: 50%;
+    padding: 12px;
+    border-top: 2px solid white;
+}
+.set-right-shang ul,.set-right-xia ul{
+    margin-bottom: 0;
+}
+.set-right-xia{
+    border-bottom: 2px solid white;
+}
+.li-text-on{
+    width: 50%;
+}
+.li-text-up,.li-text-in{
+    width: 20%;
+}
+.on-yun{
+    display: inline-block;
+    background-color: #30BE30;
+    color: white;
+    padding: 2px;
+}
+.set-mm-pp{
+    padding: 12px;
+    border-bottom: 1px dashed #C2F8F8;
+}
+.set-pp-qq{
+    margin-right: 20px;
+}
+.set-pp-ww{
+    margin-right: 60px;
+}
+.set-mm-pp span{
+    position: relative;
+}
+.set-mm-pp span input{
+    position: absolute;
+    right: 36px;
+    top: -5px;
+}
+.set-pos{
+    margin-top: 20px;
+}
+.set-nn{
+    width: 50%;
+    border: 1px solid rgb(255,0,54);
+}
+.set-sa-zz{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255,0,54);
+}
+.set-nn-sa{
+    padding: 10px;
+}
+.set-arrs{
+    width: 16%;
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    display: inline-block;
+    color: white;
+    background-color: rgb(255,0,54);
+}
+.set-arrs:hover{
+    text-decoration: none;
+    color: white;
+}
+.set-footer{
+    margin-bottom: 20px;
+}

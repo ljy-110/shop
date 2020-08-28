@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.content{
+    background-color: #F7F7F7;
+}
+li {
+    list-style: none;
+}
+.lunbo {
+    height: 0;
+}
+.lunbo-a img {
+    width: 100%;
+}
+/* 今日推荐活动 */
+.head-day {
+    height: 130px;
+    margin-top: 20px;
+}
+.row .dayone {
+    height: 130px;
+    width: 24%;
+    background: url(../../images/clockbg.png);
+    position: relative;
+    border-radius: 30px;
+}
+.row .dayone .day-img1 {
+    width: 142px;
+}
+ .dayone .day-img2 {
+    width: 130px;
+    position: absolute;
+    top: 24px;
+    right: 10px;
+}
+.row .daytwo {
+    height: 130px;
+    width: 280px;
+    background: url(../../images/ls/01_bg.png) no-repeat center;
+    background-size: 100% 100%;
+    margin: 0 13px 0 13px;
+    overflow: hidden;
+}
+.row .daythree {
+    height: 130px;
+    width: 280px;
+    background: url(../../images/ls/02_bg.png) no-repeat center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.row .dayfour {
+    height: 130px;
+    width: 280px;
+    margin-left: 13px;
+    background: url(../../images/ls/03_bg.png) no-repeat center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.day-word-p1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    padding: 30px 0 0 12px;
+}
+.day-word-p2 {
+    color: white;
+    font-size: 18px;
+    padding: 10px 0 0 12px;
+}
+.day-aa {
+    position: relative;
+}
+.day-aa:hover {
+    text-decoration: none;
+}
+.day-aa .day-img > img{
+    width: 123px;
+    height: 223px;
+    position: absolute;
+    top: -47px;
+    left: 142px;
+}
+.day-aa .day-img1 > img{
+    width: 123px;
+    position: absolute;
+    top: -7px;
+    left: 134px;
+}
+.day-aa .day-img2 > img{
+    width: 123px;
+    position: absolute;
+    top: 2px;
+    left: 142px;
+}
+/* 活动样式 */
+.activity .shopTitle {
+    margin-top: 20px;
+    text-align: left;
+    position: relative;
+    border-bottom: 2px solid #000;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+}
+.shopTitle h4 {
+    float: left;
+    border: none;
+    margin: 7px 0px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.shopTitle h3 {
+    display: block;
+    font-size: 14px;
+    color: #999;
+    float: left;
+    margin-left: 10px;
+    margin-top: 12px;
+}
+.shopTitle .more {
+    display: block;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.shopTitle .more > a {
+    color: black;
+    text-decoration: none;
+}
+.activity .icon-sale {
+    border-top: 100px solid #0087e5;
+    border-right: 100px solid transparent;
+    position: absolute;
+    width: 0;
+    height: 0;
+}
+.am-u {
+    position: relative;
+    margin-top: 20px;
+}
+.am-u > a {
+    color: red;
+}
+.am-u .activityMain img{
+    width: 100%;
+}
+.activity .am-g h4 {
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    left: 10px;
+    font-size: 16px;
+}
+.activity .icon-sale.one {
+    border-top-color: #9b0d5f;
+}
+.activity .icon-sale.two {
+    border-top-color: #b48c66;
+}
+.activity .icon-sale.three {
+    border-top-color: #7fb113;
+}
+.am-g .col-md-3.am-u {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.activity .info {
+    bottom: 10px;
+    text-align: center;
+    position: absolute;
+    left: 5%;
+    width: 90%;
+    bottom: 5px;
+    background: #eee;
+    padding: 5px;
+    margin-top: 5px;
+}
+.activity .info h3 {
+    font-size: 14px;
+}
+/* 商品分类 */
+.shopTitle .today-brands {
+    display: block;
+    position: absolute;
+    right: 100px;
+    width: 600px;
+    overflow: hidden;
+    height: 20px;
+    top: 11px;
+    text-align: right;
+}
+.shopTitle .today-brands > a{
+    color: #000;
+}
+.nut-right {
+    float: left;
+}
+.nut-right ul li {
+    width: 19%;
+    /* height: 345px; */
+    margin-top: 20px;
+    list-style: none;
+    float: left;
+    margin-right: 1%;
+    border-radius: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+.nut-right ul li:hover,
+.list-like:hover{
+    border: 1px solid rgb(254,144,29);
+}
+.nut-right ul li:hover .right-gw .right-gw-bor,
+.list-like:hover .right-gw .right-gw-bor{
+    display: block;
+}
+.list-like{
+    position: relative;
+    width: 19%;
+    margin-right: 1%;
+    border: 1px solid #ccc;
+}
+.nut-right ul li:nth-child(5n) {
+    margin-right: 0;
+}
+.right-s a img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.right-x {
+    width: 220px;
+}
+.nut-price,
+.nut-but {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 10px 10px;
+}
+.nut-price1 {
+    color: red;
+    font-size: 27px;
+    font-weight: 800;
+}
+.nut-describe {
+    height: 42px;
+    /* color: black; */
+    margin: 10px 10px 0px 10px;
+}
+.nut-describe > a {
+    color: #000;
+}
+/* 分类 */
+.text {
+    font-size: 14px;
+  }
+
+  .ite {
+    margin-bottom: 18px;
+  }
+    
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix > span {
+      font-weight: 600;
+  }
+  .clearfix:after {
+    clear: both
+  }
+
+  .box-card {
+    width: 49%;
+    margin-top: 20px;
+  }
+  .row .box-card:nth-child(2n) {
+      margin-left: 1%;
+  }
+  .ite ul .item-lili {
+        width: 32%;
+        height: 274px;
+        margin-right: 2%;
+        margin-bottom: 2%;
+        padding: 0.5%;
+    }
+    .ite ul li:nth-child(3n) {
+        margin-right: 0;
+    }
+    .ite ul li:hover{
+        border: 1px solid rgb(254,144,29);
+    }
+  .ite ul li .item-aa .item-img {
+        width: 100%;
+    }
+    .ite ul li a p {
+        color: black;
+        height: 22.9%;
+        margin-top: 2%;
+    }
+    .ite ul li > p {
+        display: flex;
+        justify-content: space-between;
+    }
+    .ite ul li > p span:nth-child(1){
+        font-size: 24px;
+        font-weight: 600;
+        color: red;
+    }
+    .row .banner-img > img {
+        width: 99.9%;
+        margin: 1% 0 0 0;
+    }
+    ul > .list-like {
+        /* float: left; */
+        background-color: white;
+        margin: 1% 1.2% 1% 0;
+        border-radius: 10px;
+    }
+    ul > .list-like:nth-child(5n){
+        margin-right: 0;
+    }
+    .row-chakan {
+        text-align: center;
+        margin-bottom: 2%;
+    }
+    .el-divider__text {
+        background-color: rgb(254,144,29);
+        border-radius: 10px;
+    }
+    .el-divider__text > a {
+        /* display: inline-block; */
+        width: 10%;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+        
+    }
+    .el-divider__text > a:hover{
+        text-decoration: none;
+        color: black;
+    }
+
+    /* 底部 */
+    /* 侧边栏 */
+    .sidebar {
+        position: fixed;
+        top: 274px;
+        left: 237px;
+        background: url(../../images/ls/side01.png) no-repeat center;
+        background-size: 171% 100%;
+        z-index: 60;
+        height: 390px;
+    }
+    .sidebar >img {
+        width: 100px;
+        height: 450px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+    .sidebar ul {
+        margin-top: 78px;
+        padding: 0;
+    }
+    .sidebar ul li {
+        height: 30px;
+        line-height: 30px;
+        width: 80px;
+        text-align: center;
+        list-style: none;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .sidebar ul li:hover,
+    .sidebar ul li:nth-child(1) {
+        background-color: rgb(252,211,61);
+    }
+    .sidebar ul li a {
+         color: black;
+    }
+    .sidebar ul li a:hover {
+         text-decoration: none;
+    }
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}

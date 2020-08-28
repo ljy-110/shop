@@ -1,0 +1,169 @@
+.flex-between{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
+.flex-start{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.text-align{
+    text-align: center;
+}
+/* 购物车 */
+.car-banner{
+    margin-top: 30px;
+}
+.car-nav-ul{
+    height: 30px;
+    background-color: #EEEEEE;
+    /* border: 1px solid #333333; */
+}
+.car-nav-ul li{
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+.li-checkbox,
+.footer-li-checkbox{
+    width: 2%;
+}
+.li-checkbox input,
+.footer-li-checkbox input{
+    margin: 0 0 0 5px;
+}
+.li-quan,
+.footer-li-quan{
+    width: 3%;
+}
+.li-shop{
+    width: 50%;
+}
+.li-shop2{
+    width: 53%;
+}
+.li-num .el-input-number .el-input,
+.li-num .el-input-number .el-input-number__decrease,
+.li-num .el-input-number .el-input-number__increase{
+    margin-top: 20%;
+}
+.li-pr,.li-num,.li-zong,.li-cao{
+    width: 11%;
+}
+.car-banner-tabs .el-tabs__header .el-tabs__nav-wrap .el-tabs__nav-scroll .el-tabs__nav .el-tabs__item{
+    color: red;
+    width: 140%;
+    border-bottom: 2px solid red;
+    font-size: 20px;
+}
+.car-banner-tabs .el-tabs__header .el-tabs__nav-wrap .el-tabs__nav-scroll .el-tabs__nav .el-tabs__active-bar{
+    display: none;
+}
+.car-sp-left{
+    width: 16%;
+    margin-left: 3%;
+}
+.shop2-aa:hover{
+    text-decoration: none;
+    color: #444;
+}
+.car-sp-max{
+    width: 15%;
+    position: absolute;
+    left: 15%;
+    top: -5%;
+    z-index: 10;
+    border: 3px solid white;
+}
+.li-zong-p{
+    color: black;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.li-cao a{
+    color: black;
+}
+.car-main-li{
+    position: relative;
+    margin: 2% 0 2% 0;
+    border: 1px solid #DDDDDD;
+}
+.footer-li-cao{
+    width: 52%;
+}
+.footer-li-num{
+    width: 12%;
+}
+.footer-li-pri1{
+    width: 11%;
+}
+.footer-li-pri2{
+    width: 10%;
+}
+.footer-li-jiesuan{
+    width: 10%;
+}
+.footer-li-cao a{
+    display: inline-block;
+    color: black;
+    width: 15%;
+    text-align: center;
+    margin-top: 15px;
+}
+.footer-li-cao a:hover{
+    text-decoration: none;
+    color: red;
+}
+.car-footer ul li{
+    font-size: 14px;
+}
+.car-footer ul{
+    background-color: #DDDDDD;
+    height: 50px;
+    position: fixed;
+    bottom: -10px;
+    width: 61%;
+}
+.li-num-span{
+    margin: 0 10px 0 10px;
+    color: #FF7011;
+    font-size: 20px;
+    font-weight: 800;
+}
+.footer-li-pri2 span{
+    color: #FF7011;
+    font-size: 20px;
+    font-weight: 800;
+}
+.li-jiesuan-aa{
+    color: white;
+    font-size: 25px;
+}
+.li-jiesuan-aa:hover{
+    text-decoration: none;
+    color: white;
+}
+.footer-li-jiesuan{
+    text-align: center;
+    background: #FF7011;
+}
+.footer-li-jiesuan:hover{
+    background-color: #CC5200;
+}
